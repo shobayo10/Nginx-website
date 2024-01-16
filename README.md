@@ -12,4 +12,4 @@ step 3
 website should be accessible at http://localhost:8080
 
 step 4 
-Map $PWD/website to/usr/share/nginx/html to mount volume 
+Map $PWD/website to/usr/share/nginx/html to volume mount
