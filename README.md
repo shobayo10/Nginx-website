@@ -12,7 +12,9 @@ step 3
 website should be accessible at http://localhost:8080
 
 step 4 
-Map $PWD/website to/usr/share/nginx/html to volume mount
+Map outside website dir $PWD/website: to inside the container > /usr/share/nginx/html to container.
 
 SOLUTION
  docker run --name website -v "$PWD/website:/usr/share/nginx/html" -p 8080:80 --rm nginx
+
+ View AFTER DIR to view outcome in code section
