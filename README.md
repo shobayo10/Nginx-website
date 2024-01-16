@@ -17,4 +17,4 @@ Map outside website dir $PWD/website: to inside the container > /usr/share/nginx
 SOLUTION
  docker run --name website -v "$PWD/website:/usr/share/nginx/html" -p 8080:80 --rm nginx
 
- Open new browser and input p://localhost:8080 to view website 
+ Open new browser and input http://localhost:8080 to view website 
